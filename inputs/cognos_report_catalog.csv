@@ -1,0 +1,9 @@
+report_id,report_name,folder_path,owner,last_run_date,status,domain,criticality
+101,Pell Grant Disbursement Summary,/Financial Aid/Aid Year 24-25,fa_director,2025-06-30,active,Financial Aid,critical
+102,Title IV Loan Origination Detail,/Financial Aid/Compliance,fa_compliance,2025-06-29,active,Financial Aid,critical
+103,Unmet Need by Admit Segment,/Financial Aid/Recruitment,fa_analyst,2025-06-20,active,Financial Aid,important
+201,Admissions Funnel by College,/Admissions/Executive,adm_vp,2025-06-25,active,Admissions,critical
+202,Application Completion Rate,/Admissions/Operations,adm_mgr,2025-06-22,active,Admissions,important
+301,Official Census Headcount & FTE,/Registrar/Census,reg_analyst,2025-06-30,active,Registrar,critical
+302,Academic Standing Summary,/Registrar/Standing,reg_analyst,2025-06-27,active,Registrar,important
+401,Legacy Ad-hoc Report,/Users/Legacy,tuser,2022-05-01,inactive,Mixed,legacy

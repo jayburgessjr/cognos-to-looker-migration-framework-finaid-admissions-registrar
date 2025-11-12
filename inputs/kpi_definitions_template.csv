@@ -1,0 +1,10 @@
+kpi_name,definition,sql_expression,owner,notes
+pell_recipients,Unique students with Pell paid,"COUNT(DISTINCT CASE WHEN pell_paid_amount > 0 THEN student_id END)",Financial Aid,"By aid year and level"
+pell_paid_amount,Total Pell disbursed,"SUM(pell_paid_amount)",Financial Aid,"Reconciled vs COD"
+title_iv_loan_volume,Total Direct Loan disbursements,"SUM(loan_amount)",Financial Aid,"Split by Sub/Unsub/PLUS"
+unmet_need,Aggregate unmet need,"SUM(unmet_need_amount)",Financial Aid,"COA - EFA, policy-aligned"
+yield_rate,Enrolled / Admitted,"SUM(enrolled_count)*1.0 / NULLIF(SUM(admit_count),0)",Admissions,"By college and admit segment"
+app_completion_rate,Completed apps / started apps,"SUM(completed_apps)*1.0 / NULLIF(SUM(started_apps),0)",Admissions,"Pipeline health"
+admit_rate,Admits / Completed Apps,"SUM(admit_count)*1.0 / NULLIF(SUM(completed_apps),0)",Admissions,"Selectivity"
+census_headcount,Official census headcount,"SUM(headcount)",Registrar,"Frozen at official census date"
+census_fte,Official census FTE,"SUM(fte)",Registrar,"IPEDS-aligned where applicable"

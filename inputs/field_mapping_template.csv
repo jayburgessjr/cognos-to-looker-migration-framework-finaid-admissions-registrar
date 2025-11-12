@@ -1,0 +1,11 @@
+cognos_report_id,cognos_field_name,warehouse_table,warehouse_column,looker_view,looker_field,notes
+101,Student_ID,dw_student,student_id,dim_student,student_id,Student key
+101,Aid_Year,dw_fa_award,aid_year,fact_fa_awards,aid_year,Award aid year
+101,Pell_Amount,dw_fa_award,pell_paid_amount,fact_fa_awards,pell_paid_amount,Pell disbursed
+102,Loan_Amount,dw_fa_loan,loan_amount,fact_fa_loans,loan_amount,Title IV loan volume
+201,Inquiry_Count,dw_adm_funnel,inquiry_count,fact_admissions_funnel,inquiry_count,Top of funnel
+201,App_Count,dw_adm_funnel,app_count,fact_admissions_funnel,application_count,Applications
+201,Admit_Count,dw_adm_funnel,admit_count,fact_admissions_funnel,admit_count,Admitted
+201,Enroll_Count,dw_adm_funnel,enroll_count,fact_admissions_funnel,enrolled_count,Enrolled
+301,Headcount,dw_enrollment_census,headcount,fact_enrollment_census,headcount,Official census headcount
+301,FTE,dw_enrollment_census,fte,fact_enrollment_census,fte,Official census FTE

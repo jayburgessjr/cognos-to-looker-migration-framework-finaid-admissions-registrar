@@ -1,0 +1,5 @@
+metric,scope,cognos_value,looker_value,diff,within_tolerance
+pell_paid_amount,aid_year_24_25,12500000,12480000,-20000,TRUE
+title_iv_loan_volume,aid_year_24_25,8900000,8895000,-5000,TRUE
+yield_rate,fall_2025_total,0.275,0.276,0.001,TRUE
+census_headcount,fall_2025_total,13250,13250,0,TRUE
