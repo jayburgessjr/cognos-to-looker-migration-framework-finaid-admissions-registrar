@@ -1,4 +1,4 @@
-# Cognos → Looker Migration Method
+# Cognos to Looker Migration Method
 ## Scope: Financial Aid, Admissions, Registrar
 
 This playbook mirrors the approach used for a Washington, D.C. public university
